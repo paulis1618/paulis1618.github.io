@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+
+{{current}}
+
+{{next}}
+{% for event in events%}
+  {{event.name}}
+  {{event.email}}
+
+{% endfor %}
+{% endblock %}
