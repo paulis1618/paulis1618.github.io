@@ -1,0 +1,76 @@
+#new_event_form {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+#lightbox{
+  visibility:hidden;
+  position:absolute;
+  background:red;
+  border:2px solid #3c3c3c;
+  color:white;
+  z-index:100;
+  width: 200px;
+  height:100px;
+  padding:20px;
+}
+
+.dimmer{
+  background: #000;
+  position: absolute;
+  opacity: .5;
+  top: 0;
+  z-index:99;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+.form-label{
+  display: inline;
+}
